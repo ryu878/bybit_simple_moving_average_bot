@@ -46,7 +46,7 @@ symbol = (symbol+'USDT').upper()
 print(' Asset:',symbol)
 
 print(' Data refresh interval: 1 3 5 15 30 60 120 240 360 720 "D" "M" "W"')
-interval = input('  Choose your Timeframe: ')
+interval = input(' Choose your Timeframe: ')
 if interval.isdigit():
     interval = int(interval)
 
@@ -171,8 +171,8 @@ except Exception as e:
     print(line_number, 'exeception: {}'.format(e))
     pass
 
-print('Ask:',ask)
-print('Bid:',bid)
+print(' Ask:',ask)
+print(' Bid:',bid)
 
 
 def get_position_rest():
@@ -429,6 +429,3 @@ while True:
 
 
     time.sleep(waittime*60)
-
-
-
