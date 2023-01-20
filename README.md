@@ -28,6 +28,14 @@ And then install necessary libraries:
 
 <code>pip install pybit</code>
 
+## Run
+
+To dun the bot type in console:
+
+<code>python3 bybit_sma_bot.py</code>
+
+If you are using windows use python instead of python3 as well.
+
 ## Contacts
 Feel free to contact me via Discord: ryuryu#4087
 or join my Discord group here: https://discord.gg/zSw58e9Uvf
