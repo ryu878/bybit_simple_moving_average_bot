@@ -174,7 +174,6 @@ except Exception as e:
 print(' Ask:',ask)
 print(' Bid:',bid)
 
-
 def get_position_rest():
     positions = client.my_position(symbol=symbol)
     
@@ -187,20 +186,10 @@ def get_position_rest():
    
     for position in positions['result']:
     
-        if position['side'] == 'None':
-            
-            sell_position_size = 0
-            sell_position_prce = 0
-            buy_position_size = 0
-            buy_position_prce = 0
         if position['side'] == 'Sell':
             sell_position_size = position['size']
             sell_position_prce = position['entry_price']
-            buy_position_size = 0
-            buy_position_prce = 0
         if position['side'] == 'Buy':
-            sell_position_size = 0
-            sell_position_prce = 0
             buy_position_size = position['size']
             buy_position_prce = position['entry_price']
 
