@@ -335,7 +335,6 @@ while True:
         pass
 
 
-    # Если нет позиций, Первый вход
     if buy_position_size == 0 and sell_position_size == 0:
 
         if ask > sma:
@@ -376,7 +375,6 @@ while True:
         print('            Sell:',sell_position_size,'@',sell_position_prce)
 
 
-    # Если есть позиция, и цены ОК
     if buy_position_size > 0 and ask > sma:
         print(' Buy position found. Ask > SMA. Waiting...')
 
@@ -384,7 +382,6 @@ while True:
         print(' Sell position found. Bid < SMA. Waiting...')
 
     
-    # Если есть позиция, но цена не ОК
     if buy_position_size > 0 and bid < sma:
         print(' Buy position found, but Bid < SMA. Closing it and opening Sell.')
 
