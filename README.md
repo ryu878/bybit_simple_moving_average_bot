@@ -4,7 +4,7 @@ Simple Bybit Futures bot: if price lower the selected moving average it will ope
 ![image](https://user-images.githubusercontent.com/81808867/213633538-a9b29301-716a-4287-8066-ef893290780d.png)
 
 
-You can set any lenght for your SMA (bybit max limit is 200 candles, but here there are no limits).
+You can set any length for your SMA (bybit max limit is 200 candles, but here there are no limits).
 
 ![image](https://user-images.githubusercontent.com/81808867/213634321-12b145e7-1f06-4e74-8d7e-be95b2d15e58.png)
 
