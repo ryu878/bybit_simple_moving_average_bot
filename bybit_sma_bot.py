@@ -198,7 +198,10 @@ get_position_rest()
 
 while True:
 
-    time_now = int(time.time())+10800
+    # time_now = int(time.time()) + 10800 # +3 Hours since UTC
+    # time_now = int(time.time()) + 7200  # +2 Hours since UTC
+    # time_now = int(time.time()) + 3600  # +1 Hour  since UTC
+    time_now = int(time.time()) # UTC time
     print('         Time now:',time_now)
     print('     Date from ts:',datefromtimestamp(time_now))
         
