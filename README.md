@@ -34,7 +34,7 @@ And then install necessary libraries:
 
 ## Run
 
-To dun the bot type in console:
+To run the bot type in console:
 
 <code>python3 bybit_sma_bot.py</code>
 
