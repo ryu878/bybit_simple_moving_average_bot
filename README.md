@@ -21,7 +21,7 @@ And then install necessary libraries:
 
 <code>pip install pandas</code>
 
-<code>pip install pybit</code>
+<code>pip install pybit==2.4.1</code>
 
 ## Run
 
