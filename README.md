@@ -42,7 +42,7 @@ To contact me:
 
 Discord: https://discord.gg/zSw58e9Uvf
 
-Join Bybit and receive up to $6,045 in Bonuses: https://www.bybit.com/invite?ref=P11NJW
+Join Bybit and receive up to $6,045 in Bonuses: https://www.bybit.com/invite?ref=X2PZB
 
 Join me at Bybit and earn exclusive rewards with Bybit's Referral Program! 
 Up to 1,025 USDT in rewards await you. https://www.bybit.com/invite?ref=P11NJW
